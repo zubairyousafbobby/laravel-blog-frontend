@@ -277,7 +277,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fullName`, `email`, `password`, `profilePic`, `role_id`, `isActivated`, `passwordResetCode`, `activationCode`, `socialType`, `email_verified_at`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'zubair yousaf', 'zubair@qdimensions.com', '$2y$10$kJZdF1DSrPD.uEZfosNaJ.q0hFA51gpUgASGZDNcT6PxfhBKW4ZXq', '/img/pic.png', 1, 0, NULL, NULL, NULL, NULL, NULL, '2021-06-14 10:39:25', '2021-06-14 17:47:28'),
+(1, 'zubair yousaf', 'test@test.com', '$2y$10$kJZdF1DSrPD.uEZfosNaJ.q0hFA51gpUgASGZDNcT6PxfhBKW4ZXq', '/img/pic.png', 1, 0, NULL, NULL, NULL, NULL, NULL, '2021-06-14 10:39:25', '2021-06-14 17:47:28'),
 (30, 'test user', 'test@test.com', '$2y$10$qTZf6j4WkWkCpg9faBIYZO2kDJXeEkLgsNDKzn4nmL8fL97zY.Jka', '/img/pic.png', 1, 0, NULL, NULL, NULL, NULL, NULL, '2021-06-16 18:04:16', '2021-06-26 17:10:57'),
 (31, 'admin', 'admin@gmail.com', '$2y$10$gwmzB0cNRhczUlY8WcmNaOl2xYkjH6SIOiSNiKwEcWfqrmiIlBvuy', '/img/pic.png', 1, 0, NULL, NULL, NULL, NULL, NULL, '2021-07-07 11:08:15', '2021-07-07 11:08:15');
 
